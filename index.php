@@ -20,13 +20,13 @@
         <textarea name="" id="textMorse" class="border border-black h-[250px]" placeholder="Texte en morse"></textarea>
         <div class="py-4 flex flex-col">
             <button type="submit" name="morseConversion" class="border border-gray-600 bg-gray-600 w-[10%] text-white">Convertir en francais</button>
-            <input type="text" id="texteFrancais" class="border border-black w-[10%]">
+            <input type="text" id="reponseFrancais" class="border border-black w-[10%]">
         </div>
 
         <textarea name="" id="textFrench" class="border border-black h-[250px]" placeholder="Texte en francais"></textarea>
         <div class="py-4 flex flex-col">
             <button type="submit" name="francaisConversion" class="border border-gray-600 bg-gray-600 w-[10%] text-white">Convertir en morse</button>
-            <input type="text" id="texteMorse" class="border border-black w-[10%]">
+            <input type="text" id="reponseMorse" class="border border-black w-[10%]">
         </div>
     </section>
 </body>

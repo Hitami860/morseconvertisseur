@@ -17,6 +17,7 @@ fetch('./script/morse.json')
 
 
 
+
 fetch('./script/francais.json')
     .then(response => response.json()
 
@@ -29,16 +30,18 @@ fetch('./script/francais.json')
 
     });
 
+
+
 function conversionMorse() {
 
-    let texteFrench = document.getElementById('texteFrench').value
-
+    let textFrench = document.getElementById('textFrench').value
+    
 
 }
 
 function conversionFrancais() {
 
-    let texteMorse = document.getElementById('textMorse').value
+    let textMorse = document.getElementById('textMorse').value
 
 
 }
